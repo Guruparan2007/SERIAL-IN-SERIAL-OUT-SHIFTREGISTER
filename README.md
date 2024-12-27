@@ -27,6 +27,11 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
+BASIC MOVEMENT THROUGH SHIFT REGISTER:
+
+![Screenshot 2024-12-27 092554](https://github.com/user-attachments/assets/ead6afbf-8b96-4432-add2-652e8a9d1b85)
+
+
 **Procedure**
 
 1.Type the program in Quartus software.
@@ -38,6 +43,12 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 4.Create nodes for inputs and outputs to generate the timing diagram.
 
 5.For different input combinations generate the timing diagram.
+
+~~~
+
+Developed by:GURUPARAN G  RegisterNumber:24001677
+
+~~~
 
 
 **PROGRAM**
@@ -59,7 +70,7 @@ endmodule
 
 
 
-Developed by:GURUPARAN G  RegisterNumber:24001677
+
 
 
 
@@ -68,12 +79,12 @@ Developed by:GURUPARAN G  RegisterNumber:24001677
 ![Screenshot 2024-12-26 212537](https://github.com/user-attachments/assets/f1305771-4fe1-4603-bd58-98360211fb74)
 
 
-**TIMING DIGRAMS FOR SISO Shift Register**
+**TIMING DAIGRAMS FOR SISO Shift Register**
 
 
 ![Screenshot 2024-12-26 212558](https://github.com/user-attachments/assets/fd185e97-fa92-4829-836e-da7ffcf1ffd5)
 
 
-**RESULTS**
+**RESULT**
 
 SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
